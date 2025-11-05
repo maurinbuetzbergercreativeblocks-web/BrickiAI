@@ -1,4 +1,4 @@
-import { type LegoSet } from '../types';
+import { type LegoSet } from '../types.ts';
 
 const REBRICKABLE_API_KEY = '7d8f130303c393a5ccf41d2ca7bee5f8';
 const API_BASE_URL = 'https://rebrickable.com/api/v3/lego';
