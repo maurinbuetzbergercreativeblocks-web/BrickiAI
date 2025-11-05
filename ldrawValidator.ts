@@ -1,5 +1,5 @@
 
-import { type LegoSet, type PlacedPart } from '../types';
+import { type LegoSet, type PlacedPart } from '../types.ts';
 
 async function calculateSha256(str: string): Promise<string> {
     try {
