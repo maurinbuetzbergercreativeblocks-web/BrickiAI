@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { type LegoSet } from '../types';
-import { CameraIcon } from './icons/CameraIcon';
-import { DownloadIcon } from './icons/DownloadIcon';
+import { type LegoSet } from '../types.ts';
+import { CameraIcon } from './icons/CameraIcon.tsx';
+import { DownloadIcon } from './icons/DownloadIcon.tsx';
 
 interface ResultDisplayProps {
   legoSet: LegoSet;
