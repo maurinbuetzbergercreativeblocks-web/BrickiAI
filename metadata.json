@@ -1,0 +1,5 @@
+{
+  "name": "BrickiAI",
+  "description": "An AI-powered application that generates complete, build-ready LEGO sets from a text prompt and exports them as LDraw (.ldr) files.",
+  "requestFramePermissions": []
+}
