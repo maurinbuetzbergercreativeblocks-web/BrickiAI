@@ -1,15 +1,15 @@
 
 import React, { useState, useCallback, useRef, useEffect } from 'react';
-import { Header } from './components/Header';
-import { InputForm } from './components/InputForm';
-import { ResultDisplay } from './components/ResultDisplay';
-import { HowItWorks } from './components/HowItWorks';
-import { Status, type LegoSet, type GenerationOptions } from './types';
-import { generateLegoInstructions } from './services/geminiService';
-import { enrichLegoSetWithRebrickableData } from './services/rebrickableService';
-import { assembleLdrFromSet } from './services/ldrawValidator';
-import { ProgressDisplay } from './components/ProgressDisplay';
-import Adsense from './components/Adsense';
+import { Header } from './components/Header.tsx';
+import { InputForm } from './components/InputForm.tsx';
+import { ResultDisplay } from './components/ResultDisplay.tsx';
+import { HowItWorks } from './components/HowItWorks.tsx';
+import { Status, type LegoSet, type GenerationOptions } from './types.ts';
+import { generateLegoInstructions } from './services/geminiService.ts';
+import { enrichLegoSetWithRebrickableData } from './services/rebrickableService.ts';
+import { assembleLdrFromSet } from './services/ldrawValidator.ts';
+import { ProgressDisplay } from './components/ProgressDisplay.tsx';
+import Adsense from './components/Adsense.tsx';
 
 const ESTIMATED_GENERATION_TIME_S = 45; // seconds
 
@@ -154,5 +154,3 @@ const App: React.FC = () => {
     </div>
   );
 };
-
-export default App;
