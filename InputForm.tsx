@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { type GenerationOptions } from '../types';
+import { type GenerationOptions } from '../types.ts';
 
 interface InputFormProps {
   onGenerate: (options: GenerationOptions) => void;
