@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { type GenerationOptions, type LegoSet } from '../types';
+import { type GenerationOptions, type LegoSet } from '../types.ts';
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
 const model = 'gemini-2.5-pro';
